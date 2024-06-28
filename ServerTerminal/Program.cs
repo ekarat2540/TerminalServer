@@ -40,7 +40,7 @@ class Server
     {
         try
         {
-            TcpClient senderClient = new TcpClient("192.168.1.101",5713);
+            TcpClient senderClient = new TcpClient("192.168.1.106",5713);
             NetworkStream senderStram = senderClient.GetStream();
             StreamWriter receiveWriter = new StreamWriter(senderStram);
 
